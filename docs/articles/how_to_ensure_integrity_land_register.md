@@ -1,1 +1,87 @@
+---
+title: "How to Ensure the Integrity of the Electronic Land Register and Digital Archives?"
+layout: default
+---
 
+# How to Ensure the Integrity of the Electronic Land Register and Digital Archives?
+
+*By Ingmar Vali and Piret Saartee*
+
+> Note: This Markdown version is a structured, concise representation of the original article. Replace the terse bullets and notes with your own full text if you have the rights to do so.
+
+## 1. Introduction
+
+- Paper-based registers are increasingly replaced by electronic systems and digitally signed documents.  
+- Electronic records allow easier backup, make undetected alteration harder, and are critical for fundamental state registers such as land registers.  
+- The article discusses both positive experiences and risks when transitioning fully to electronic land registers and digital archives.  
+
+## 2. Overview of the land register
+
+- The land register stores data about immovables, ownership, rights, encumbrances, restrictions, and supporting technical information such as cadastral maps and buildings.  
+- In Estonia, the electronic land register has legal effect, paper documents are essentially historical, and online access allows e‑conveyancing, fee payment, and near real‑time registration.  
+- Most transactions occur electronically without intermediaries, with notaries or bank officers playing a supervisory or specialised role where needed.  
+
+## 3. Electronic land register management and security
+
+- The electronic land register is integrated with the secure state data exchange layer X‑road, which provides tamper‑evident, time‑stamped data exchange between government databases.  
+- Estonia applies the ISKE three‑level IT security framework to state databases, including the electronic land register and its digital archives, to define security classes and mandatory controls.  
+- Security classes are derived from requirements on integrity, confidentiality, and availability, and are audited by certified information systems or ISO 27001 auditors.  
+
+### 3.1 Security classes and parameters
+
+- Security levels use parameters such as:
+  - Integrity: correctness, completeness, authenticity, and protection from unauthorised change.  
+  - Confidentiality: access limited to authorised persons or tools.  
+  - Availability: timely, reliable access for authorised users.  
+- These parameters are assessed on a multi‑level scale, and the resulting class drives the choice of technical and organisational measures.  
+
+## 4. Land register as a high security‑class database
+
+- The electronic land register is treated as a high‑integrity system because its data has direct legal effect in civil circulation.  
+- Its security class (e.g., high integrity, controlled availability, and restricted document access) reflects the catastrophic impact that corruption or loss of data would have on property rights.  
+- Integrity safeguards must cover both structured database entries and associated electronic documents.  
+
+### 4.1 Legal framework for electronic documents and signatures
+
+- Estonian civil law equates electronic and written form if certain conditions are met (reproducibility, identification of parties, and valid electronic signature).  
+- Public‑notary‑authenticated transactions are submitted electronically, with documents digitally signed and transmitted via e‑Notary and X‑road into the land register system.  
+- Digital signatures rely on a public key infrastructure and validity‑confirmation services, including time‑stamping, which support long‑term evidential value.  
+
+### 4.2 Challenges with digital signatures and database entries
+
+- Digitally signed documents are relatively straightforward to protect, but real‑time database entries must also remain tamper‑evident and consistently linked to the correct documents.  
+- Questions arise regarding the long‑term preservation of integrity, system evolution, and cost‑effective implementation of signing or sealing mechanisms for entries.  
+- The choice of solution often balances security requirements against financial and operational constraints.  
+
+## 5. Transition to digital archives
+
+- Estonia digitalised land registry files at scale using a dedicated scanning application developed with input from the National Archives.  
+- Instead of using individual digital signatures for each scanned document, the system employs a digital stamp (organisational signature) issued to the land registry department.  
+- Each scanned document is stored as a separate PDF within a signed container sealed with the digital stamp, along with a time label and certificate data.  
+
+### 5.1 Digital stamp concept
+
+- A digital stamp certifies that a document originates from a specific institution and has not been altered since stamping.  
+- It is applied automatically by the system when documents are transferred into the archive, without requiring user interaction for each signature event.  
+- The stamp’s container allows readers to verify the institution, time of stamping, and integrity of the enclosed documents.  
+
+### 5.2 Online access and eID‑based services
+
+- Citizens, entrepreneurs, and officials can order digitalisation and read scanned land‑register documents remotely via an internet portal.  
+- Access to documents may require demonstration of legitimate interest, except for owners, who can view their own files directly.  
+- The portal uses electronic ID authentication, and high national eID penetration supports widespread use of these e‑services.  
+
+## 6. Conclusions and international cooperation
+
+- The Estonian experience demonstrates that fully electronic land registers and digital archives are feasible when strong legal, organisational, and technical integrity safeguards are in place.  
+- Sharing good and bad practices internationally can reduce costs, avoid repeated mistakes, and build common rules for secure maintenance of electronic land registers and archives.  
+- A dedicated professional network (e.g., a Land Register Security Network on LinkedIn) has been proposed or established to facilitate knowledge exchange among registrars worldwide.  
+
+---
+
+## References and useful links
+
+- X‑road information  
+- ISKE IT baseline security framework  
+- Certification Authority validity‑confirmation services  
+- Digital stamp service documentation  
